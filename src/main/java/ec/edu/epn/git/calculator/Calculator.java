@@ -13,8 +13,7 @@ public class Calculator {
 
     @SuppressWarnings("IntergerDivisionInFloatingPointContext")
     public double division(int a, int b){
-        //return a / b;
-        return a;
+        return a / b;
     }
 
     public void timeout(int time){

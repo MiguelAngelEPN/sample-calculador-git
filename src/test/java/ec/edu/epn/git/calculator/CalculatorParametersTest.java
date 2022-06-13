@@ -14,7 +14,7 @@ public class CalculatorParametersTest {
     private int a, b, expected;
 
     @Parameterized.Parameters
-    public  static Iterable<Object[]> parameters(){
+    public  static List<Object> parameters(){
         List<Object> objects = new ArrayList<Object>();
         objects.add(new Object[]{2, 4, 6});
         objects.add(new Object[]{1, 8, 9});
@@ -22,7 +22,7 @@ public class CalculatorParametersTest {
         objects.add(new Object[]{7, 3, 10});
         objects.add(new Object[]{22, 4, 26});
         objects.add(new Object[]{12, 14, 26});
-        return (Iterable<Object[]>) objects;
+        return objects;
     }
     public CalculatorParametersTest(int a, int b, int expected){
         this.a = a;
