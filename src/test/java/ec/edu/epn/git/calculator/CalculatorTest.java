@@ -18,12 +18,12 @@ public class CalculatorTest {
         System.out.println("setUp()");
         c = new Calculator();
     }
-
+    /*
     @Test
     public void given_two_integers_when_add_then_ok(){
         System.out.println("Test 1");
         assertEquals( 6, c.subtraction( 3, 3));
-    }
+    }*/
 
     @Test
     public void given_two_integers_when_subtraction_then_ok(){
