@@ -9,6 +9,6 @@ public class CalculatorExecute {
         System.out.println("c.addition(4,7)= "+ addition);
 
         int subtraction = c.subtraction(7, 1);
-        System.out.println("subtraction(7, 1)"+ subtraction);
+        System.out.println("subtraction(7, 1)= "+ subtraction);
     }
 }
